@@ -28,7 +28,7 @@ install:
   
   
 before_script:
-  - cd build; cmake ../zztest/
+  - cd build; cmake ../
   
 script:
   - make
