@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.6.1)
+cmake_minimum_required(VERSION 2.8.7)
 add_executable(uri_test uri_test.cpp)
 target_include_directories(uri_test PUBLIC "${CMAKE_SOURCE_DIR}/test/lest/include/lest")
 target_link_libraries(uri_test LINK_PUBLIC Uri)
